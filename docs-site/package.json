@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "PanSou 文档站点",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
