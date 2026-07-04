@@ -1,0 +1,16 @@
+{
+  "name": "pansou-docs",
+  "version": "1.0.0",
+  "description": "PanSou 文档站点",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vitepress-plugin-mermaid": "^2.0.16",
+    "mermaid": "^11.4.1"
+  }
+}
