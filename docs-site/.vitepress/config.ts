@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default withMermaid(defineConfig({
+export default defineConfig({
   lang: 'zh-CN',
   title: 'PanSou',
   description: '高性能网盘资源搜索 API 服务，支持 TG 搜索和自定义插件搜索',
@@ -118,8 +117,4 @@ export default withMermaid(defineConfig({
       dark: 'github-dark',
     },
   },
-
-  mermaid: {
-    // mermaid 主题跟随系统
-  },
-}))
+})
